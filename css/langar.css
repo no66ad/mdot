@@ -1,0 +1,29 @@
+.style-switcher .Language{
+    display: flex;
+    flex-wrap: wrap;
+}
+.style-switcher .Language span{
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.style-switcher .en{
+    background-color: black;
+}
+.style-switcher .ar{
+    background-color: white;
+}
+.style-switcher .en a{
+    color: white;
+    text-align: center;
+    align-items: center;
+    font-weight: bolder;
+}
+.style-switcher .ar a{
+    color: black;
+    text-align: center;
+    align-items: center;
+    font-weight: bolder;
+}
